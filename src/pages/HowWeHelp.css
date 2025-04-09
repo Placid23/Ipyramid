@@ -1,0 +1,107 @@
+/* How We Help Section */
+.how-we-help {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .section-header {
+    margin-bottom: 40px;
+  }
+  
+  .section-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .help-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .help-image {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .help-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .help-cards {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .help-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 250px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .help-card img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .help-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .help-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .help-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .help-footer {
+    margin-top: 40px;
+  }
+  
+  .help-footer p {
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .help-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .help-image {
+      max-width: 100%;
+    }
+  
+    .help-cards {
+      justify-content: center;
+    }
+  }
+  

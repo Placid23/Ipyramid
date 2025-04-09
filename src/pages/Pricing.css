@@ -1,0 +1,140 @@
+/* Pricing Section */
+#pricing {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .pricing-intro h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .pricing-intro h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .pricing-intro p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .learn-more {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .learn-more:hover {
+    background: #0056b3;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 350px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .fixed {
+    border-top: 4px solid #007bff;
+  }
+  
+  .time-materials {
+    border-top: 4px solid #28a745;
+  }
+  
+  .pricing-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .pricing-card .price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pricing-card ul li {
+    font-size: 1rem;
+    color: #555;
+    margin: 8px 0;
+  }
+  
+  .quote,
+  .get-started {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .quote {
+    background: #007bff;
+  }
+  
+  .get-started {
+    background: #28a745;
+  }
+  
+  .quote:hover {
+    background: #0056b3;
+  }
+  
+  .get-started:hover {
+    background: #1e7e34;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .pricing-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1; /* Pushes the footer to the bottom */
+}
