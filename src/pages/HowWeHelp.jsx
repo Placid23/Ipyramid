@@ -3,7 +3,7 @@ import "./HowWeHelp.css"; // Ensure styles are applied
 import helpMain from "../assets/blog1.jpg"; // Update the path if needed
 import helpImage1 from "../assets/blog2.jpg";
 import helpImage2 from "../assets/blog3.jpg";
-import softwareIcon from "../assets/software.PNG";
+import softwareIcon from "../assets/software.png";
 import uiuxIcon from "../assets/ui-ux.jpg";
 
 
